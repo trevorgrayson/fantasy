@@ -1,6 +1,9 @@
+import sys
 from fantasy import depth
 
-print depth.team_depth_chart('bal')
+print 'go'
+print sys.argv
+team = sys.argv[2]
 
-
-print 'done'
+print 'looking up %s' % team
+#print depth.team_depth_chart(team)
