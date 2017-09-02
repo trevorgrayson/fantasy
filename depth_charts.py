@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import json
 from datetime import datetime
 
@@ -19,6 +21,7 @@ for team in TEAMS:
         fp.close()
     except IOError:
         print "couldn't find %s" % cache_f
+        last_chart = None
         
 
     fp = open(cache_f, 'a')
@@ -34,8 +37,13 @@ for team in TEAMS:
             players2 = last_chart[position]
 
             if position != 'created' and players != players2:
-                print '%s: %s - %s' % (
-                    team, str(players), str(players2)
+                new_lead = ""
+
+                if players[0] != players2[0]:
+                    new_lead = players[0]
+
+                print '%s:%s: %s <= %s' % (
+                    team, new_lead, ", ".join(players), ", ".join(players2)
                 )
 
     fp.close()

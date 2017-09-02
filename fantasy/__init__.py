@@ -1,24 +1,18 @@
+import logging
+
+import os
+import urllib2
+from datetime import datetime
+
+
+logger = logging.getLogger(__name__)
+
 TEAM = []
 
 TEAMS = [
-    'nwe',
-    'lar',
-    'buf',
-    'mia',
-    'nyj',
-    'bal',
-    'cin',
-    'cle',
-    'pit',
-    'hou',
-    'ind',
-    'jac',
-    'ten',
-    'phi',
-    'was',
-    'chi',
-    'det',
-    'gnb',
+    'nwe', 'lar', 'buf', 'mia', 'nyj', 'bal',
+    'cin', 'cle', 'pit', 'hou', 'ind', 'jac',
+    'ten', 'phi', 'was', 'chi', 'det', 'gnb',
     'min',
 ]
 
@@ -35,10 +29,6 @@ POSITIONS = [
     'Quarterback',
     'Center',
 ]
-
-import os
-import urllib2
-from datetime import datetime
 
 CACHE_FOLDER = '.cache/'
 
@@ -63,11 +53,11 @@ def fetch(url):
 
 
     if os.path.exists(cache_f):
-        print 'cache: {url}'.format(url=url)
+        logger.info('cache: {url}'.format(url=url))
         fp = open(cache_f, 'r')
         resp = fp.read()
     else:
-        print 'fetching: {url}'.format(url=url)
+        logger.info( 'fetching: {url}'.format(url=url))
         fp = open(cache_f, 'w')
         resp = urllib2.urlopen(url).read()
         fp.write(resp)
