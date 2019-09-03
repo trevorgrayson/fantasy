@@ -1,7 +1,7 @@
 import logging
 
 import os
-import urllib2
+from urllib.request import urlopen
 from datetime import datetime
 
 
@@ -59,8 +59,8 @@ def fetch(url):
     else:
         logger.info( 'fetching: {url}'.format(url=url))
         fp = open(cache_f, 'w')
-        resp = urllib2.urlopen(url).read()
-        fp.write(resp)
+        resp = urlopen(url).read()
+        fp.write(str(resp))
 
     fp.close()
 

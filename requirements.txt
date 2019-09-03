@@ -1,1 +1,2 @@
-python-bs4
+# python-bs4
+pyquery==1.4.0

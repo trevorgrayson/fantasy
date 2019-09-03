@@ -1,8 +1,12 @@
 DEPTH_URL = 'http://in.sports.yahoo.com/nfl/teams/{team}/depthchart'
 
-import urllib2
+from urllib.request import urlopen
 import fantasy
 from pyquery import PyQuery as pq
+
+# ESPN Depth 
+# https://www.espn.com/nfl/team/depth/_/name/buf
+# .nfl-depth-table .Table2__table__wrapper td .Table2__table-scroller td
 
 def team_depth_chart(team):
     depth_chart = {}

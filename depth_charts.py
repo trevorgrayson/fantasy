@@ -19,14 +19,16 @@ for team in TEAMS:
         last_line = fp.readlines()[-1]
         last_chart = json.loads(last_line)
         fp.close()
-    except IOError:
-        print "couldn't find %s" % cache_f
+    except (IOError, IndexError):
+        print("couldn't find %s" % cache_f)
         last_chart = None
         
 
     fp = open(cache_f, 'a')
 
     chart = depth.team_depth_chart(team)
+    print(chart)
+    exit(0)
     chart['created'] = str(datetime.now())
     js = json.dumps(chart)
     fp.write(js)
@@ -42,8 +44,8 @@ for team in TEAMS:
                 if players[0] != players2[0]:
                     new_lead = players[0]
 
-                print '%s:%s: %s <= %s' % (
+                print( '%s:%s: %s <= %s' % (
                     team, new_lead, ", ".join(players), ", ".join(players2)
-                )
+                ))
 
     fp.close()
