@@ -57,7 +57,7 @@ POSITIONS = ['QB', 'RB', 'WR', 'WR', 'TE', 'FB', 'LT', 'LG', 'C', 'RG', 'RT' ,
 
 
 def team_depth_chart(team):
-    depth_chart = {}
+    depth_chart = []
 
     resp = fantasy.fetch( DEPTH_URL.format(team=team) )
     d = pq(resp)
@@ -70,7 +70,7 @@ def team_depth_chart(team):
         rows.append(node.find('a'))
 
     rows = filter(lambda x: len(x) > 0, rows)
-    depth_chart = dict(zip(POSITIONS, map(lambda row: [col.text for col in row], rows)))
+    depth_chart = zip(POSITIONS, map(lambda row: [col.text for col in row], rows))
     
     return depth_chart
 

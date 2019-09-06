@@ -9,7 +9,7 @@ if __name__ == '__main__':
         now = datetime.datetime.now().isoformat()
 
         with open(f"data/depth/{team}", 'w') as fp:
-            for pos, vals in depth.items():
+            for pos, vals in depth:
 
                 players = "	".join(vals)
                 fp.write(f"{pos}	{players}\n")
