@@ -1,14 +1,14 @@
 QB	Aaron Rodgers	Tim Boyle
 RB	Aaron Jones	Jamaal Williams	Dexter Williams
-WR	Davante Adams	Jake Kumerow	Allen Lazard
-WR	Marquez Valdes-Scantling	Trevor Davis	Equanimeous St. Brown
+WR	Davante Adams	Trevor Davis	Allen Lazard
+WR	Marquez Valdes-Scantling	Jake Kumerow	Equanimeous St. Brown
 TE	Geronimo Allison	Darrius Shepherd
-FB	Jimmy Graham	Robert Tonyan	Marcedes Lewis	Jace Sternberger
+FB	Jimmy Graham	Marcedes Lewis	Robert Tonyan	Jace Sternberger
 LT	David Bakhtiari	Alex Light
 LG	Lane Taylor	Elgton Jenkins
-C	Corey Linsley	Cole Madison
-RG	Billy Turner	Lucas Patrick
-RT	Bryan Bulaga	Jason Spriggs
+C	Corey Linsley	Lucas Patrick	Cole Madison
+RG	Billy Turner	Elgton Jenkins
+RT	Bryan Bulaga	Alex Light	Jason Spriggs
 LDE	Dean Lowry	Fadol Brown
 LDT	Kenny Clark	Tyler Lancaster
 RDT	Montravius Adams	Kingsley Keke
@@ -16,10 +16,10 @@ RDE	Preston Smith	Kyler Fackrell
 WLB	Oren Burks	B.J. Goodson
 MLB	Blake Martinez	Ty Summers	Curtis Bolton
 SLB	Za'Darius Smith	Rashan Gary	Greg Roberts
-SS	Jaire Alexander	Tony Brown	Ka'dar Hollman
-FS	Adrian Amos	Ibraheim Campbell
-RCB	Darnell Savage	Raven Greene	Will Redmond
-LCB	Kevin King	Tramon Williams	Josh Jackson	Chandon Sullivan
+SS	Jaire Alexander	Tony Brown	Josh Jackson	Chandon Sullivan
+FS	Adrian Amos	Raven Greene	Ibraheim Campbell
+RCB	Darnell Savage	Will Redmond
+LCB	Kevin King	Tramon Williams	Ka'dar Hollman
 PK	Mason Crosby
 P	JK Scott
 H	JK Scott
