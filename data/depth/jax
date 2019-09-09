@@ -1,9 +1,9 @@
-QB	Nick Foles	Gardner Minshew
+QB	Gardner Minshew	Joshua Dobbs	Nick Foles
 RB	Leonard Fournette	Ryquell Armstead	Tyler Ervin	Devine Ozigbo
-WR	Dede Westbrook	DJ Chark	Marcus Simms
-WR	Marqise Lee	Keelan Cole
-TE	Chris Conley	C.J. Board
-FB	Geoff Swaim	James O'Shaughnessy	Josh Oliver	Seth DeValve
+WR	Dede Westbrook	Marqise Lee	Marcus Simms
+WR	Chris Conley	Keelan Cole
+TE	DJ Chark	C.J. Board
+FB	James O'Shaughnessy	Geoff Swaim	Josh Oliver	Seth DeValve
 LT	Cam Robinson	Cedric Ogbuehi	Will Richardson
 LG	Andrew Norwell	Brandon Thomas	Donnell Greene
 C	Brandon Linder	Tyler Shatley
@@ -11,9 +11,9 @@ RG	A.J. Cann	Will Richardson
 RT	Jawaan Taylor	KC McDermott
 LDE	Calais Campbell	Dawuane Smoot
 LDT	Abry Jones	Dontavius Russell
-RDT	Marcell Dareus	Taven Bryan
+RDT	Marcell Dareus	Calais Campbell	Taven Bryan
 RDE	Yannick Ngakoue	Josh Allen	Lerentee McCray
-WLB	Quincy Williams	D.J. Alexander	Telvin Smith
+WLB	Quincy Williams	D.J. Alexander
 MLB	Myles Jack	Najee Goode
 SLB	Leon Jacobs	Austin Calitro	Jake Ryan	James Onwualu
 SS	Jalen Ramsey	D.J. Hayden	Breon Borders
@@ -24,5 +24,5 @@ PK	Josh Lambo
 P	Logan Cooke
 H	Logan Cooke
 PR	Dede Westbrook	Tyler Ervin	Marqise Lee	Josh Robinson
-KR	DJ Chark	Tyler Ervin	Marqise Lee	Keelan Cole
+KR	Tyler Ervin	DJ Chark	Marqise Lee	Keelan Cole
 LS	Matthew Orzech

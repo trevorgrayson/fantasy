@@ -1,14 +1,14 @@
 QB	Tom Brady	Jarrett Stidham
 RB	Sony Michel	James White	Rex Burkhead	Damien Harris
-WR	Antonio Brown	Phillip Dorsett	Matthew Slater	N'Keal Harry
-WR	Julian Edelman	Demaryius Thomas	Gunner Olszewski
+WR	Julian Edelman	Phillip Dorsett	Matthew Slater	N'Keal Harry
+WR	Antonio Brown	Demaryius Thomas	Gunner Olszewski
 TE	Josh Gordon	Jakobi Meyers	Cameron Meredith
-FB	Matt LaCosse	Ryan Izzo	Benjamin Watson	Lance Kendricks
+FB	Matt LaCosse	Ryan Izzo	Benjamin Watson
 LT	Isaiah Wynn	Korey Cunningham	Yodny Cajuste
 LG	Joe Thuney	Jermaine Eluemunor
 C	Ted Karras	James Ferentz	David Andrews
 RG	Shaq Mason	Jermaine Eluemunor	Hjalte Froholdt
-RT	Marcus Cannon	Korey Cunningham
+RT	Marcus Cannon	Jermaine Eluemunor	Korey Cunningham
 LDE	Deatrich Wise Jr.	Chase Winovich	Keionta Davis
 LDT	Lawrence Guy	Byron Cowart
 RDT	Danny Shelton	Adam Butler
@@ -18,7 +18,7 @@ MLB	Elandon Roberts	Ja'Whaun Bentley
 SLB	Kyle Van Noy	Shilique Calhoun
 SS	Jason McCourty	J.C. Jackson
 FS	Patrick Chung	Duron Harmon	Terrence Brooks	Malik Gant
-RCB	Devin McCourty	Nate Ebner	Obi Melifonwu
+RCB	Devin McCourty	Nate Ebner
 LCB	Stephon Gilmore	Jonathan Jones	Joejuan Williams	D'Angelo Ross
 PK	Stephen Gostkowski
 P	Jake Bailey
