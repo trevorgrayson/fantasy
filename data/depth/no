@@ -1,5 +1,5 @@
 QB	Drew Brees	Teddy Bridgewater	Taysom Hill
-RB	Alvin Kamara	Latavius Murray	Dwayne Washington	Matt Dayes
+RB	Alvin Kamara	Latavius Murray	Dwayne Washington
 WR	Michael Thomas	Keith Kirkwood
 WR	Ted Ginn Jr.	Austin Carr
 TE	Tre'Quan Smith	Deonte Harris
@@ -13,16 +13,16 @@ LDE	Cameron Jordan
 LDT	Sheldon Rankins	Mario Edwards Jr.	Shy Tuttle
 RDT	Malcom Brown	David Onyemata	Taylor Stallworth
 RDE	Marcus Davenport	Trey Hendrickson	Carl Granderson
-WLB	A.J. Klein	Josh Martin
-MLB	Alex Anzalone	Kiko Alonso	Kaden Elliss
-SLB	Demario Davis	Craig Robertson	Chase Hansen	Colton Jumper
-SS	Eli Apple	P.J. Williams	Ken Crawley	Justin Hardee
+WLB	Demario Davis	Craig Robertson	Josh Martin
+MLB	Alex Anzalone	Kiko Alonso
+SLB	A.J. Klein	Kaden Elliss	Chase Hansen	Colton Jumper
+SS	Eli Apple	P.J. Williams	Ken Crawley
 FS	Vonn Bell	Chauncey Gardner-Johnson	J.T. Gray
 RCB	Marcus Williams	Saquan Hampton
-LCB	Marshon Lattimore	Patrick Robinson
+LCB	Marshon Lattimore	Patrick Robinson	Justin Hardee
 PK	Wil Lutz
 P	Thomas Morstead
 H	Thomas Morstead	Taysom Hill
-PR	Alvin Kamara	Ted Ginn Jr.	Deonte Harris
-KR	Taysom Hill	Ted Ginn Jr.	Deonte Harris
+PR	Deonte Harris	Alvin Kamara	Ted Ginn Jr.
+KR	Deonte Harris	Taysom Hill	Ted Ginn Jr.
 LS	Zach Wood

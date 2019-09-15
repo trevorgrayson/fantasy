@@ -1,8 +1,8 @@
 QB	Patrick Mahomes	Matt Moore	Chad Henne
 RB	Damien Williams	LeSean McCoy	Darwin Thompson	Darrel Williams
-WR	Tyreek Hill	Mecole Hardman	Davon Grayson
-WR	Sammy Watkins	De'Anthony Thomas
-TE	Demarcus Robinson	Marcus Kemp
+WR	Tyreek Hill	Mecole Hardman	Marcus Kemp
+WR	Sammy Watkins	De'Anthony Thomas	Davon Grayson
+TE	Demarcus Robinson	Byron Pringle
 FB	Travis Kelce	Blake Bell	Deon Yelder	John Lovett
 LT	Eric Fisher	Cameron Erving
 LG	Andrew Wylie	Jeff Allen
@@ -16,7 +16,7 @@ RDE	Frank Clark	Tanoh Kpassagnon	Tim Ward
 WLB	Anthony Hitchens	Darron Lee
 MLB	Reggie Ragland	Ben Niemann	Darius Harris
 SLB	Damien Wilson	Dorian O'Daniel
-SS	Charvarius Ward	Kendall Fuller	Tremon Smith	Keith Reaser
+SS	Charvarius Ward	Kendall Fuller	Keith Reaser
 FS	Tyrann Mathieu	Jordan Lucas	Armani Watts
 RCB	Juan Thornhill	Daniel Sorensen
 LCB	Bashaud Breeland	Rashad Fenton	Morris Claiborne
@@ -24,5 +24,5 @@ PK	Harrison Butker
 P	Dustin Colquitt
 H	Dustin Colquitt
 PR	Mecole Hardman	Tyreek Hill
-KR	Tremon Smith	De'Anthony Thomas	Tyreek Hill
+KR	De'Anthony Thomas	Tyreek Hill
 LS	James Winchester
