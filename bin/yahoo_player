@@ -1,0 +1,3 @@
+while read PLAYER; do
+    echo https://football.fantasysports.yahoo.com/f1/139496/playersearch?&search=$PLAYER
+done

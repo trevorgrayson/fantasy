@@ -1,0 +1,2 @@
+for PLAYER in `./bin/new_first_strings`; do grep $PLAYER data/rosters/*; done;
+for PLAYER in `./bin/new_first_strings`; do grep $PLAYER data/free-agents/*; done;

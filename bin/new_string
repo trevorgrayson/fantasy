@@ -1,0 +1,6 @@
+# this has an issue if someone drops down in the chart, or if the lineup changes without them
+RANK=$1
+declare -i RANK
+RANK+=1
+
+cat data/depth/* | grep "+" | cut -f$RANK | grep -v "@" | grep -v "+++"

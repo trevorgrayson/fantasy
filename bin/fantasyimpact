@@ -1,0 +1,1 @@
+while read URL; do curl -s $URL | grep "Fantasy Impact" | cut -d'>' -f 7,13; done

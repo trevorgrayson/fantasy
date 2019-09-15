@@ -1,0 +1,1 @@
+git show HEAD data/depth | grep "+" | cut -f2 | grep -v "@" | grep -v "+++"

@@ -1,0 +1,6 @@
+# needs to figure out how to cat names together
+while read PLAYER; 
+do 
+    grep --color=auto "$PLAYER" data/rosters/*; 
+    grep --color=auto "$PLAYER" data/free-agents/*; 
+done

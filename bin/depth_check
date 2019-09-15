@@ -1,0 +1,6 @@
+# needs to figure out how to cat names together
+#for PLAYER in `./bin/new_first_strings_by_roster | grep WR | cut -d: -f 2 | cut -f 1`; do grep --color=auto  "$PLAYER" data/depth/*; done
+while read PLAYER; 
+do 
+    grep --color=auto "$PLAYER" data/depth/*; 
+done
