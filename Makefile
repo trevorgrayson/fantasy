@@ -1,19 +1,19 @@
-DEPS:=venv
+PYDEPS:=venv
 
 export PYTHON = python3
-export PYTHONPATH=$(DEPS):.
+export PYTHONPATH=$(PYDEPS):.
 
-etl: rosters depth
+etl: compile rosters depth
 	git add data
 	git commit -m "`date`"
 
-depth_check:
+depth_check: compile
 	./bin/new_first_strings | ./bin/depth_check
 
-availability:
+availability: compile
 	./bin/new_first_strings | ./bin/availablity
 
-rosters:
+rosters: compile
 	$(PYTHON) rosters.py
 
 depth: compile
@@ -24,7 +24,10 @@ starters:
 	echo "POSITION="
 	grep "`cat data/depth/* | grep $(POSITION) | cut -f2`" data/free-agents/*
 
-compile: $(DEPS)
-$(DEPS): requirements.txt
-	$(PYTHON) -m pip install -t $(DEPS) -r requirements.txt
-	touch $(DEPS)
+compile: $(PYDEPS)
+$(PYDEPS): requirements.txt
+	$(PYTHON) -m pip install -t $(PYDEPS) -r requirements.txt
+	touch $(PYDEPS)
+
+clean:
+	rm -rf $(PYDEPS)
