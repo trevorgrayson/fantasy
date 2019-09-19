@@ -7,7 +7,10 @@ etl: compile rosters depth
 	git add data
 	git commit -m "`date`"
 
-depth_check: compile
+test:
+	$(PYTHON) -m pytest
+
+depth_check:
 	./bin/new_first_strings | ./bin/depth_check
 
 availability: compile
@@ -31,3 +34,5 @@ $(PYDEPS): requirements.txt
 
 clean:
 	rm -rf $(PYDEPS)
+
+.PHONY: test

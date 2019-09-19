@@ -3,5 +3,4 @@ RANK=$1
 declare -i RANK
 RANK+=1
 
-[ -z $1 ] && echo "string [RANK]" #  [POSITION]"
-cat data/depth/* | cut -f$RANK
+git show HEAD data/depth | grep "+" | cut -f$RANK | grep -v "@" | grep -v "+++"

@@ -1,5 +1,5 @@
 # python-bs4
 pyquery==1.4.0
-yahoo_fantasy_api
-yahoo_oauth
-
+yahoo-fantasy-api==1.2.0
+yahoo-oauth==0.1.9
+pytest==5.1.2
