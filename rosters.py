@@ -8,7 +8,7 @@ gm = yfa.Game(sc, 'nfl')
 last_league_id = gm.league_ids()[-1]
 league = gm.to_league(last_league_id)
 
-YAHOO_POSITIONS = ['QB', 'WR', 'RB', 'TE','W/R/T','K','DEF', 'BN'] # 'w/r'
+YAHOO_POSITIONS = ['QB', 'WR', 'RB', 'TE', 'K','DEF', 'BN'] # 'w/r' 'W/R/T',
 # standings
 # team_key()  is me.
 
@@ -36,8 +36,9 @@ for pos in YAHOO_POSITIONS:
         try:
             for agent in league.free_agents(pos):
                 name = agent['name']
+                pid = agent['player_id']
                 positions = ",".join(agent['eligible_positions'])
                 print(f">>{name}	{positions}")
-                fp.write(f"{name}	{positions}\n")
+                fp.write(f"{name}	{positions}	{pid}\n")
         except StopIteration as err:
             pass
