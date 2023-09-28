@@ -62,7 +62,7 @@ def team_depth_chart(team):
     resp = fantasy.fetch( DEPTH_URL.format(team=team) )
     d = pq(resp)
 
-    positions = d('.nfl-depth-table .Table2__tr.Table2__tr--sm.Table2__even')
+    positions = d('.nfl-depth-table table tr')
 
     rows = []
     for node in positions:
