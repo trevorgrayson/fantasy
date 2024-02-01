@@ -3,6 +3,6 @@ pyquery==1.4.0
 yahoo-fantasy-api==2.0.1
 yahoo-oauth==0.1.9
 pytest==5.1.2
-scikit-learn==0.23.2
+scikit-learn==1.0.1
 pandas==1.1.1
 sklearn
